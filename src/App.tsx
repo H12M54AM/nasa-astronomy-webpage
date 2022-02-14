@@ -21,8 +21,6 @@ function Navbar() {
   )
 }
 
-
-
 function App() {
   return (
     <Navbar />
