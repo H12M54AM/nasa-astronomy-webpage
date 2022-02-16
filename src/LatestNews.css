@@ -2,31 +2,66 @@
 
 h1{
     font-family: 'Nova Flat', cursive;
-    font-size: 20px;
+    font-size: 40px;
     color: #ffffff;
-    margin: 10rem auto 5rem auto;
+    margin: 10rem auto 3rem auto;
     text-align: center;
-  }
+}
   
-  .outline {
-    height: 837.83px;
-    width: 739px;
-    outline-style: solid;
-    outline-color: #ffffff;
-    border-radius: 37px;
-    margin: auto auto 10rem auto;
-    offset: 20px;
-    display: flex;
-  }
-  
-  .card {
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .background {
-    width: 635px;
-    height: 724.27px;
-    background-color: #ffffff;
-    border-radius: 19px;
-  }
+.outline {
+  height: 837.83px;
+  width: 739px;
+  outline-style: solid;
+  outline-color: #898989;
+  border-radius: 37px;
+  margin: auto auto 10rem auto;
+  offset: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.background {
+  width: 635px;
+  height: 724.27px;
+  background-color: #ffffff;
+  border-radius: 19px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__heart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.title {
+  margin-left: 2rem;
+}
+
+.heart {
+  margin-left: 2rem;
+}
+.img {
+  text-align: center;
+  margin: auto;
+}
+
+.content {
+  padding: 5px;
+  width: 90%;
+  margin: 20px auto 20px auto
+}
+
+.description {
+  padding: 5px;
+}
+.description__credits {
+  padding: 5px;
+}
+
+.datetime {
+  text-align: center;
+  margin-bottom: 2rem;
+}

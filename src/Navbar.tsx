@@ -13,7 +13,7 @@ function Navbar() {
             </div>
             <div className="nav__links">
               <ul><li><a href="#">Home</a></li></ul>
-              <ul><li><a href="#">News</a></li></ul>
+              <ul><li><a href="#latest__news">News</a></li></ul>
             </div>
           </div>
         </header>
