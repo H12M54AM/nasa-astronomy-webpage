@@ -2,7 +2,7 @@ import React from 'react';
 
 // My Components
 import LatestNews from './LatestNews';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import './App.css';
 
 function App() {
