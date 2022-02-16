@@ -1,0 +1,32 @@
+/* Latest News */
+
+h1{
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10rem auto 5rem auto;
+    text-align: center;
+  }
+  
+  .outline {
+    height: 837.83px;
+    width: 739px;
+    outline-style: solid;
+    outline-color: #ffffff;
+    border-radius: 37px;
+    margin: auto auto 10rem auto;
+    offset: 20px;
+    display: flex;
+  }
+  
+  .card {
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .background {
+    width: 635px;
+    height: 724.27px;
+    background-color: #ffffff;
+    border-radius: 19px;
+  }

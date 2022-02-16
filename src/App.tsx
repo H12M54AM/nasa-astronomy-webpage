@@ -1,30 +1,17 @@
 import React from 'react';
-import './App.css';
-import {ReactComponent as NasaLogo} from './NasaLogo-96.svg'
 
-function Navbar() {
-  return (
-    <>
-      <header>
-        <div className="navbar__background">
-          <div className="logo__title">
-            <NasaLogo id='nasa__logo'/>
-            <h3>Astronomy Picture of the Day</h3>
-          </div>
-          <div className="nav__links">
-            <ul><li><a href="#">Home</a></li></ul>
-            <ul><li><a href="#">News</a></li></ul>
-          </div>
-        </div>
-      </header>
-    </>
-  )
-}
+// My Components
+import LatestNews from './LatestNews';
+import Navbar from './NavBar';
+import './App.css';
 
 function App() {
   return (
-    <Navbar />
-  );
+    <>
+      <Navbar />
+      <LatestNews />
+    </>
+  )
 }
 
 export default App;
