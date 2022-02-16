@@ -37,15 +37,18 @@ h1{
 }
 
 .title {
-  margin-left: 2rem;
+  margin-left: 40px;
 }
 
 .heart {
-  margin-left: 2rem;
+  margin-left: 5px;
 }
 .img {
   text-align: center;
   margin: auto;
+  /* placeholder for where the actual photos will go */
+  background-color: #898989;
+  height: 600px
 }
 
 .content {
