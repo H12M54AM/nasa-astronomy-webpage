@@ -1,6 +1,6 @@
 import React from 'react';
 import './LatestNews.css';
-
+import Heart from './heart-48.png';
 function LatestNews() {
     return (
       <>
@@ -11,7 +11,7 @@ function LatestNews() {
                 <div className="img">IMG</div>
                 <div className="title__heart">
                   <div className="title"><h2>Title</h2></div>
-                  <div className="heart"><h2>Heart</h2></div>
+                  <img src={Heart} alt="heart" className='Heart'/>
                 </div>
                 <div className="content">
                   <div className="description">

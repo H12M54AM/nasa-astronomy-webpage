@@ -40,15 +40,19 @@ h1{
   margin-left: 40px;
 }
 
-.heart {
-  margin-left: 5px;
+.Heart {
+  margin-left: 15px;
+  position: relative;
+  top: -10px;
 }
 .img {
   text-align: center;
   margin: auto;
   /* placeholder for where the actual photos will go */
   background-color: #898989;
-  height: 600px
+  width: 600px;
+  height: 358px;
+  border-radius: 20px;
 }
 
 .content {
