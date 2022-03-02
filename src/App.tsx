@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 // My Components
-import LatestNews from './LatestNews';
-import Navbar from './Navbar';
+import LatestNews from './components/LatestNews/LatestNews';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import './LatestNews.css';
-import Heart from './heart-48.png';
+import Heart from '../../static/heart-48.png';
+
 function LatestNews() {
     return (
       <>
