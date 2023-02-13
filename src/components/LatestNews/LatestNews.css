@@ -1,13 +1,13 @@
 /* Latest News */
 
-h1{
-    font-family: 'Nova Flat', cursive;
-    font-size: 40px;
-    color: #ffffff;
-    margin: 10rem auto 3rem auto;
-    text-align: center;
+h1 {
+  font-family: 'Nova Flat', cursive;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 10rem auto 3rem auto;
+  text-align: center;
 }
-  
+
 .outline {
   height: 837.83px;
   width: 739px;
@@ -45,6 +45,7 @@ h1{
   position: relative;
   top: -10px;
 }
+
 .img {
   text-align: center;
   margin: auto;
@@ -64,6 +65,7 @@ h1{
 .description {
   padding: 5px;
 }
+
 .description__credits {
   padding: 5px;
 }
